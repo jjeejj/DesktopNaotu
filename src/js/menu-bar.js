@@ -67,32 +67,37 @@ var template = [{
             label: "撤销(&U)",
             accelerator: 'CmdOrCtrl+Z',
             click: undo,
-            selector: 'undo:'
+            selector: 'undo:',
+            // role: 'undo'
         },
         {
             label: "恢复(&R)",
             accelerator: 'CmdOrCtrl+Y',
             click: redo,
-            selector: 'redo:'
+            selector: 'redo:',
+            // role: 'redo'
         },
         { type: 'separator' },
         {
             label: "剪切(&T)",
             accelerator: 'CmdOrCtrl+X',
-            click: cut,
-            selector: 'cut:'
+            // click: cut,
+            selector: 'cut:',
+            role: 'cut'
         },
         {
             label: "复制(&C)",
             accelerator: 'CmdOrCtrl+C',
-            click: copy,
-            selector: 'copy:'
+            // click: copy,
+            selector: 'copy:',
+            role: 'copy'
         },
         {
             label: "粘贴(&P)",
             accelerator: 'CmdOrCtrl+V',
-            click: paste,
-            selector: 'paste:'
+            // click: paste,
+            selector: 'paste:',
+            role: 'paste'
         }
     ]
 }, {

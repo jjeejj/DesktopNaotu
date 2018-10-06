@@ -1,9 +1,7 @@
 var defaultPath = null, isSutoSave = true;
 var fs = require('fs'),
     { shell } = require('electron'),
-    { dialog, Menu } = require('electron').remote,
-    { app } = require('electron').remote,
-    { BrowserWindow, Menu, MenuItem } = require('electron').remote,
+    { app, BrowserWindow, dialog, Menu, MenuItem} = require('electron').remote,
     ver = require('../version'),
     http = require('http'),
     path = require('path');
